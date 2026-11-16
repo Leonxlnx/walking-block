@@ -1,0 +1,10 @@
+node_modules/
+out/
+shots/
+refs/
+audio/wave/
+# alternate music candidates are not redistributed here (URLs in audio/CREDITS.md); only the track used in the film
+audio/music/*
+!audio/music/the_long_dark.mp3
+.claude/
+*.log

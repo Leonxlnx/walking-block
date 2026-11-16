@@ -1,0 +1,21 @@
+{
+  "name": "walking-block",
+  "version": "1.0.0",
+  "description": "A colossal walking Soviet apartment block, built procedurally in three.js (no 3D assets), with a 45 s film rendered from it.",
+  "scripts": {
+    "start": "node server.mjs",
+    "storyboard": "node tools/shot.mjs --board --prefix sb",
+    "audio": "node tools/audio.mjs",
+    "render": "node tools/render.mjs --w 1920 --h 1080 --mb 5 --dir out/frames",
+    "mux": "bash tools/mux.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^23.11.1",
+    "three": "^0.170.0"
+  },
+  "type": "module",
+  "private": true
+}
